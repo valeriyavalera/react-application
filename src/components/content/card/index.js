@@ -23,6 +23,16 @@ const getComponentHeader = (inner_text) => {
       
     );
   };
+  const getComponentList2 = (elems2) => {
+    return (
+      <div className="inner-list2">
+        {elems2.map((el) => 
+        <div className="listItem2">{el}</div>
+      )}
+      </div>
+      
+    );
+  };
 
   const getComponentSubBlock = (inner_text) => {
     return (
@@ -32,11 +42,7 @@ const getComponentHeader = (inner_text) => {
         </div>
     );
   };
-//   const getComponentText = (inner_text) => {
-//     return (
-//       <p className="card-text">{inner_text}</p>
-//     );
-//   };
+
 
 function Card (props){
     return(
@@ -70,7 +76,10 @@ function Card (props){
                     }
                     case 'list': {
                       return getComponentList(el.elems);
-                  }
+                    }
+                    case 'list2': {
+                      return getComponentList2(el.elems2);
+                    }
                     default: { }
                     }
                 })

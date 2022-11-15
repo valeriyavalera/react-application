@@ -5,6 +5,7 @@
     margin-left: 60px;
     background-color: white;
     border-radius: 5px;
+    padding-bottom: 35px;
 }
 
 .photo1 {
@@ -13,6 +14,15 @@
     background-size: cover;
     background-position: center;
     border-radius: 5px 5px 0 0;
+}
+
+.photo1:hover {
+    opacity: .8;
+    transition: 0.5s ;
+}
+.photo1:not(:hover) {
+    opacity: 1;
+    transition: 0.5s ;
 }
 
 
@@ -62,14 +72,15 @@ span:hover {
     width: 90%;
     font-size: 27px;
     color: #333;
-    
 }
 
 .card-text {
     width: 100%;
-    font-size: 13px;
+    font-size: 14px;
     color: #333;
     font-weight: 500;
+
+    line-height: 20px;
 }
 
 .bigblock{
@@ -82,7 +93,7 @@ span:hover {
 }
 
 .grayblock{
-    width: 6px;
+    width: 4px;
     height: 70px;
     background-color: #848484;
     margin-left: 30px;
@@ -93,7 +104,12 @@ span:hover {
 }
 
 .inner-list{
-    
+    margin-left: 50px;
+    font-size: 15px;
 }
-
-
+.listItem2{
+    margin-left: 50px;
+    list-style-type: none;
+    line-height: 20px;
+    font-size: 15px;
+}
