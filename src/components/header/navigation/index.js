@@ -4,7 +4,7 @@ import './style.css';
 function Navigation() {
   return (
     <div className='header-nav'>
-            <div>HOMEPAGE</div>
+            <div className="homepage">HOMEPAGE</div>
             <div>PAGES</div>
             <div>ELEMENTS</div>
             <div>PORTFOLIO LAYOUTS</div>

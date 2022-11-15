@@ -9,7 +9,7 @@ function Logo() {
             <span>Free Responsive Template</span>
         </div>
         <div className="right">
-            info@domain.com | +xx xxx xxxxxxxxxx
+            info@domain.com  |  +xx xxx xxxxxxxxxx
         </div>
         
     </div>
