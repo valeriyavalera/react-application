@@ -1,10 +1,10 @@
 import './App.css';
 
-function Header() {
+function Footer() {
   return (
     <div className='App'></div>
    
   );
 }
 
-export default Header;
+export default Footer;
