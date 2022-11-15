@@ -3,6 +3,7 @@ import './App.css';
 import Navigation from './components/navigation';
 import Content from './components/content';
 import About from './components/about';
+import Contact from './components/contact';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
               <Route path='/card/:cardId' element={<Content />} />
           </Route>
           <Route path='/about' element={<About />} />
+          <Route path='/contact' element={<Contact />} />
         </Routes>
       </div>
     </BrowserRouter>

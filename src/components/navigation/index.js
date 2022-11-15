@@ -19,9 +19,9 @@ function Navigation (){
             </div>
             <hr></hr>
             <div className="pages">
-                <div><NavLink to='/'>HOME</NavLink></div>
-                <div><NavLink to='/about'>ABOUT</NavLink></div>
-                <div><NavLink to='/contact'>CONTACT</NavLink></div>
+                <div><NavLink to='/' style={{ textDecoration: 'none' }}>HOME</NavLink></div>
+                <div><NavLink to='/about' style={{ textDecoration: 'none' }}>ABOUT</NavLink></div>
+                <div><NavLink to='/contact' style={{ textDecoration: 'none' }}>CONTACT</NavLink></div>
             </div>
             <hr></hr>
             <div className="socials">

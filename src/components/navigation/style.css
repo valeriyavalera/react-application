@@ -27,14 +27,14 @@ hr {
 }
 .pages {
     font-size: 1.6vh;
-    font-weight: 600;
+    font-weight: 700;
     color: gray;
 }
 .pages > div {
     margin-bottom: 1.7vh;
 }
 .pages > div:hover{
-    color: black;
+    color: #333;
     cursor : pointer;
     transition: 1s;
     
@@ -57,4 +57,12 @@ hr {
 .socials > img:hover {
     fill: black;
     cursor : pointer;
+}
+
+a{
+    color: grey;
+}
+a:hover{
+    color: #333;
+    transition: 0.5s;
 }
