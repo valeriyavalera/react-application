@@ -67,4 +67,42 @@ h3{
     font-weight: 500;
 }
 
+#smaller1 , #smaller2 {
+    height: 18px;
+    margin-top: 5px;
+    margin-bottom: 22px;
+}
+
+#bigger {
+    height: 120px;
+    margin-bottom: 18px;
+}
+
+#smaller1 , #smaller2 , #bigger {
+    width: 100%;
+    border-radius: 5px;
+    background-color:#333333;
+    border: 1px solid #666666;
+}
+
+.contact_btn_orange , .contact_btn_gray{
+    height: 33px;
+    width: 80px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-size: .9em;
+    font-weight: bold;
+}
+.contact_btn_orange{
+    background-color: orange;
+    border: 1px solid #CC7500;
+    margin-right: 15px;
+}
+
+.contact_btn_gray{
+    background-color: #A8A8A8;
+    border: 1px solid #333333;
+}
+
+
 
