@@ -15,16 +15,43 @@ function Footer() {
         <div>Portfolio</div>
         <div>Online Shop</div>
       </div>
+
       <div className="gallery">
         <h3>Latest Gallery</h3>
-
+        <div className="container_gallery">
+          <div className="graybox2"></div>
+          <div className="graybox2"></div>
+          <div className="graybox2"></div>
+          <div className="graybox2"></div>
+          <div className="graybox2"></div>
+          <div className="graybox2"></div>
+          <div className="graybox2"></div>
+          <div className="graybox2"></div>
+          <div className="graybox2"></div>
+        </div>
       </div>
+
       <div className="from_twitter">
         <h3>From Twitter</h3>
+        <div className="text_fromtwitter underline">
+         @<span className="span_name">name</span>  RT  @<span className="span_name">name</span> Donec suscipit vehicula turpis sed lutpat Quisque vitae quam neque.<span className="span_name smallertext"> about 9 hours ago</span> 
+        </div>
+        <div className="text_fromtwitter underline">
+         @<span className="span_name">name</span>  RT @<span className="span_name">name</span> Donec suscipit vehicula turpis sed lutpat Quisque vitae quam neque.<span className="span_name smallertext "> about 9 hours ago</span> 
+        </div>
+        <div className="text_fromtwitter underline">
+         @<span className="span_name">name</span>  RT @<span className="span_name">name</span> Donec suscipit vehicula turpis sed lutpat Quisque vitae quam neque.<span className="span_name smallertext"> about 9 hours ago</span> 
+        </div>
+        <div className="text_fromtwitter ">
+         @<span className="span_name">name</span>  RT @<span className="span_name">name</span> Donec suscipit vehicula turpis sed lutpat Quisque vitae quam neque.<span className="span_name smallertext "> about 9 hours ago</span> 
+        </div>
+        
 
       </div>
       <div className="contact">
         <h3>Contact Us</h3>
+        
+        
 
       </div>
     </div>
