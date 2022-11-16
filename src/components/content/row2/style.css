@@ -1,0 +1,25 @@
+.row2{
+    width: 100%;
+    height: 470px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    margin-top: 50px;
+}
+
+.row2_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.bigBlackBox {
+    width: 570;
+    height: 190px;
+    background-color: #666666;
+}
+
+.text_row2{
+    width: 570px;
+}

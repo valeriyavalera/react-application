@@ -1,0 +1,36 @@
+.row1{
+    width: 100%;
+    height: 470px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.child{
+    width: 570px;
+    height: 196px;
+    display: flex;
+    align-items: center;
+}
+
+.graybox{
+    width: 91px;
+    height: 91px;
+    background-color: #666666;
+}
+
+.headlinetext {
+    width: 450px;
+    margin-left: 28px;
+}
+.span_row1{
+    color: orange;
+    font-weight: 600;
+    padding-left: 350px;
+}

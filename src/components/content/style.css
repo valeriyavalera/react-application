@@ -1,0 +1,15 @@
+.content {
+    height: 1100px;
+    width: 100%;
+    background-color: #FFFFFF;
+    color: #666666;
+    font-size: 14px;
+    font-weight: 500;
+}
+hr{
+    width: 80%;
+    height: 1px;
+    background-color: #c8c6c6;
+    border: #cdcccc;
+    margin-top: 50px;
+}
