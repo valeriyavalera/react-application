@@ -1,0 +1,33 @@
+.from_twitter{
+    width: 255px;
+    height: 370px;
+}
+
+h3{
+    border-bottom: 1px solid gray ;
+    line-height: 40px;
+}
+.text_fromtwitter{
+    width: 255px;
+    font-size: small;
+    font-weight: 500;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.underline{
+    border-bottom: 1px solid gray 
+}
+
+.span_name{
+    color: orange;
+    font-weight: 700;
+}
+.smallertext{
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.span_name , .smallertext :hover{
+    cursor: pointer;
+}

@@ -1,0 +1,22 @@
+.footer_navigation {
+    width: 255px;
+    height: 370px;
+}
+.footer_navigation{
+    margin-left: 120px;
+}
+
+.footer_navigation > div{
+    line-height: 40px;
+    color: orange;
+    border-bottom: 1px solid gray ;
+}
+
+.footer_navigation > div:hover {
+    cursor: pointer;
+}
+
+h3{
+    border-bottom: 1px solid gray ;
+    line-height: 40px;
+}

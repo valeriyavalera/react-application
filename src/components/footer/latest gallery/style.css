@@ -1,0 +1,21 @@
+.gallery {
+    width: 255px;
+    height: 370px;
+}
+
+h3{
+    border-bottom: 1px solid gray ;
+    line-height: 40px;
+}
+.container_gallery{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 11px;
+
+}
+.graybox2{
+    width: 77px;
+    height: 77px;
+    background-color: #919191;
+}
