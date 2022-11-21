@@ -23,6 +23,9 @@
     margin-bottom: 7px;
     cursor: pointer;
   }
+  .menu-sub-items > div:hover {
+    background-color: orange;
+  }
   
   .menu-sub-items {
     display: none;
