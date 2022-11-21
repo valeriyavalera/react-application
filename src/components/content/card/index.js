@@ -60,7 +60,7 @@ function Card (props){
                         {props.topic}</span></p>
                 </div>
                 <article
-                // className={props.isArticleVisible ? '' : 'hide'}
+                className={props.isArticleVisible ? '' : 'hide'}
                 >
                 {
                 props.fullPage.map(el => {

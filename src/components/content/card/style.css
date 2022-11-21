@@ -113,3 +113,9 @@ span:hover {
     line-height: 20px;
     font-size: 15px;
 }
+.hide {
+    height: 0;
+    overflow: hidden;
+    padding: 0;
+    
+}
